@@ -81,7 +81,7 @@ function obj:_updateMenu()
   obj.menu:setTitle(menuBarTitle)
 end
 
-function obj:init()
+function obj:start()
   obj.menu = hs.menubar.new()
   obj._updateMenu()
 
